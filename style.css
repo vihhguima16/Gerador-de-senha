@@ -102,3 +102,39 @@ body{
         flex-direction: row;
     }
 }
+.parametro-senha__botao{
+    background-color: var(--borda);
+    color: var(--branco);
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.parametro-senha__botao:hover{
+    background-color: #005fd1;
+}
+
+.parametro-senha__texto{
+    font-size: 24px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #00a650;
+    color: white;
+    border: 3px solid yellow;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #008a43;
+}
